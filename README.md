@@ -18,6 +18,6 @@ npm install
 
 ionic serve
 
-Considerações (a corrigir) **
+Considerações **
 
-- Para disponíbilizar imagem na aplicação é necessário que seja posto URL da imagem, registrada na internet em outro source. O Google atualizou a forma de envio. É necessária uma atualização deste snippet do código.
+- Para disponíbilizar imagem na aplicação é necessário que seja posto URL da imagem, registrada na internet em outro source. O Google atualizou a forma de envio. É necessária uma atualização deste snippet do código caso projeto seja continuado.
