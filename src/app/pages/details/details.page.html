@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+
+    <ion-title>Novo chamado</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-list>
+    <ion-item>
+      <ion-input type="text" [(ngModel)]="chamado.name" placeholder="Em que programa ocorre?"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="text" [(ngModel)]="chamado.description" placeholder="Descreva o problema"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="text" [(ngModel)]="chamado.picture" placeholder="Link da foto"></ion-input>
+    </ion-item>
+    <!-- <ion-item>
+      <ion-input type="text" [(ngModel)]="chamado.price" placeholder="Preço"></ion-input>
+    </ion-item> -->
+    <ion-item>
+      <ion-button (click)="takeSelfie()">Tirar uma foto do erro</ion-button>
+    </ion-item>
+  </ion-list>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-button (click)="saveChamado()" expand="block">
+      Salvar
+    </ion-button>
+  </ion-toolbar>
+</ion-footer>
