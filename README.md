@@ -20,4 +20,4 @@ ionic serve
 
 Considerações (a corrigir) **
 
-- A fotografia é registrada, mas não é enviada para o firebase (fica salva localmente). Para disponíbilizar na aplicação é necessário que seja posto URL da imagem, registrada na internet em outro source. É necessária uma atualização deste snippet do código.
+- Para disponíbilizar imagem na aplicação é necessário que seja posto URL da imagem, registrada na internet em outro source. O Google atualizou a forma de envio. É necessária uma atualização deste snippet do código.
